@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 using Microsoft.CognitiveServices.Speech;
 using Microsoft.CognitiveServices.Speech.Audio;
 using Microsoft.CognitiveServices.Speech.Translation;
-using Speech_translate_console;
 using Newtonsoft.Json.Linq;
+using System.Runtime.CompilerServices;
+
 
 
 public class Program
@@ -21,10 +22,16 @@ public class Program
 
     static Task Main() => TranslateSpeechAsync();
 
+    private static string GetThisFilePath([CallerFilePath] string path = null)
+    {
+        return path;
+    }
+
+
     static async Task TranslateSpeechAsync()
     {
         // Path to the JSON file
-        string filePath = "../../../../Infra_Creation/keys.json";
+        string filePath = Path.GetFullPath(Path.GetDirectoryName(Path.GetDirectoryName(GetThisFilePath())) + "/Infra_Creation/keys.json");
 
 
         // Read the JSON file content
@@ -38,7 +45,6 @@ public class Program
         SPEECH__SERVICE__REGION = jsonObject["region"]["value"].ToString();
 
         // Display the value
-        Console.WriteLine("ai_speech_endpoint value: " + SPEECH__SERVICE__KEY);
         var speechTranslationConfig =
             SpeechTranslationConfig.FromSubscription(SPEECH__SERVICE__KEY, SPEECH__SERVICE__REGION);
 
