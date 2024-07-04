@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PC47wbo44tcHlJ2c7N3VUjE/F7cLWE0l5yepJCLrzMA=",
+  "Hash": "az/dTDcJvxDvMCzqtiz/dJZztLKW7g1uu6YRrak5lDc=",
   "Source": "BlazorSignalRApp.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -509,6 +509,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/webcil/Microsoft.AspNetCore.SignalR.Protocols.Json.wasm"
+    },
+    {
+      "Identity": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.CognitiveServices.Speech.csharp.wasm",
+      "SourceId": "BlazorSignalRApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.CognitiveServices.Speech.csharp.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/webcil/Microsoft.CognitiveServices.Speech.csharp.wasm"
     },
     {
       "Identity": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.CSharp.wasm",
@@ -5582,6 +5601,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/_framework/System.Runtime.Serialization.Primitives.wasm"
+    },
+    {
+      "Identity": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/compressed/dar3fb362u.gz",
+      "SourceId": "BlazorSignalRApp.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.CognitiveServices.Speech.csharp.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.CognitiveServices.Speech.csharp.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.CognitiveServices.Speech.csharp.wasm"
     },
     {
       "Identity": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/compressed/dhzu766zto.gz",

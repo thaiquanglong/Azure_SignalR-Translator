@@ -11,6 +11,8 @@ builder.Services.AddRazorComponents()
 
 builder.Services.AddSignalR();
 
+
+
 builder.Services.AddResponseCompression(opts =>
 {
    opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(

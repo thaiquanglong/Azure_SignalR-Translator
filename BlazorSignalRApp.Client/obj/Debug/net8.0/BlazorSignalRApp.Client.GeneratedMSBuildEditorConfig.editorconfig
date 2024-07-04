@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/Pages/Speech2Text.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3BlZWNoMlRleHQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

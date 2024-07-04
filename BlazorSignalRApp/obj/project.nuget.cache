@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KrfJ+s6VeBMY9Uj8ZD3q5muZ5KvThbhyYVitYIaGe3Z2XdAptlbhAIWTtNVkpRLhi7ElwhVxdujUOC1WgzDO7g==",
+  "dgSpecHash": "4bpb6ihSCC5bMVML3/Ho3nrnrJt+zTcJl0YGlRbMn/ScUjzTQcwT4LYpFS2jzefWPIoOzfjHJzW7IFKClwaZKg==",
   "success": true,
   "projectFilePath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/Users/sam/.nuget/packages/microsoft.aspnetcore.signalr.client.core/8.0.6/microsoft.aspnetcore.signalr.client.core.8.0.6.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.aspnetcore.signalr.common/8.0.6/microsoft.aspnetcore.signalr.common.8.0.6.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.aspnetcore.signalr.protocols.json/8.0.6/microsoft.aspnetcore.signalr.protocols.json.8.0.6.nupkg.sha512",
+    "/Users/sam/.nuget/packages/microsoft.cognitiveservices.speech/1.38.0/microsoft.cognitiveservices.speech.1.38.0.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/sam/.nuget/packages/microsoft.extensions.configuration.binder/8.0.1/microsoft.extensions.configuration.binder.8.0.1.nupkg.sha512",

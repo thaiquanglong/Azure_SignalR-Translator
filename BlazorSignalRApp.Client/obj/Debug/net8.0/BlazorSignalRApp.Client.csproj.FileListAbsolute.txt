@@ -1066,3 +1066,9 @@
 /Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/refint/BlazorSignalRApp.Client.dll
 /Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/BlazorSignalRApp.Client.pdb
 /Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/ref/BlazorSignalRApp.Client.dll
+/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/BlazorSignalRApp.Client.sourcelink.json
+/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.CognitiveServices.Speech.csharp.wasm
+/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.CognitiveServices.Speech.csharp.wasm.gz
+/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/bin/Debug/net8.0/Microsoft.CognitiveServices.Speech.csharp.dll
+/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/webcil/Microsoft.CognitiveServices.Speech.csharp.wasm
+/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/Debug/net8.0/compressed/dar3fb362u.gz
