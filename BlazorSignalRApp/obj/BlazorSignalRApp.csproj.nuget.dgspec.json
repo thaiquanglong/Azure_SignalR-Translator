@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj": {}
+  },
+  "projects": {
+    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj",
+        "projectName": "BlazorSignalRApp.Client",
+        "projectPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj",
+        "packagesPath": "/Users/sam/.nuget/packages/",
+        "outputPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[8.0.4, 8.0.4]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj",
+        "projectName": "BlazorSignalRApp",
+        "projectPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj",
+        "packagesPath": "/Users/sam/.nuget/packages/",
+        "outputPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj": {
+                "projectPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
