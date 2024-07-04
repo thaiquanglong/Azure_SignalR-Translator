@@ -24,7 +24,7 @@ public class Program
     static async Task TranslateSpeechAsync()
     {
         // Path to the JSON file
-        string filePath = "../../../../Infra_Creation/keys.json";
+        string filePath = "../Infra_Creation/keys.json";
 
 
         // Read the JSON file content
@@ -75,10 +75,12 @@ public class Program
                         SPEECH__SERVICE__KEY, SPEECH__SERVICE__REGION);
                 speechConfig.SpeechSynthesisVoiceName = languageToVoiceMap[language];
 
+                /** Uncomment this for Text to Audio
                 using var audioConfig = AudioConfig.FromWavFileOutput($"{language}-translation.wav");
                 using var speechSynthesizer = new SpeechSynthesizer(speechConfig, audioConfig);
 
                 await speechSynthesizer.SpeakTextAsync(translation);
+                */
             }
         }
     }

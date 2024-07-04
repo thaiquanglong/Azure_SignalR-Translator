@@ -1,30 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\Speech_translate_console\\Speech_translate_console.csproj": {}
+    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/Speech_translate_console/Speech_translate_console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\Speech_translate_console\\Speech_translate_console.csproj": {
+    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/Speech_translate_console/Speech_translate_console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\Speech_translate_console\\Speech_translate_console.csproj",
+        "projectUniqueName": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/Speech_translate_console/Speech_translate_console.csproj",
         "projectName": "Speech_translate_console",
-        "projectPath": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\Speech_translate_console\\Speech_translate_console.csproj",
-        "packagesPath": "C:\\Users\\A2696263\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\Speech_translate_console\\obj\\",
+        "projectPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/Speech_translate_console/Speech_translate_console.csproj",
+        "packagesPath": "/Users/sam/.nuget/packages/",
+        "outputPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/Speech_translate_console/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\A2696263\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/sam/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/hrblock/0470b46e-1f42-4fdf-b4aa-9b392089b0bc/_packaging/ArchitecturePackages/nuget/v3/index.json": {},
-          "https://pkgs.dev.azure.com/hrblock/BlockMoney/_packaging/blockmoney-packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -36,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -72,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
