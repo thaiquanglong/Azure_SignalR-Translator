@@ -28,3 +28,7 @@ output "signalr_connection_string" {
   value = azurerm_signalr_service.signalr.primary_connection_string
   sensitive = true
 }
+
+output "region" {
+  value = var.resource_group_location
+}
