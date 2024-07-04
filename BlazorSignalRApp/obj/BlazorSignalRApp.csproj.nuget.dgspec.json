@@ -1,26 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj": {}
+    "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp\\BlazorSignalRApp.csproj": {}
   },
   "projects": {
-    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj": {
+    "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj",
         "projectName": "BlazorSignalRApp.Client",
-        "projectPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj",
-        "packagesPath": "/Users/sam/.nuget/packages/",
-        "outputPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/obj/",
+        "projectPath": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj",
+        "packagesPath": "C:\\Users\\A2696263\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp.Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\A2696263\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/0470b46e-1f42-4fdf-b4aa-9b392089b0bc/_packaging/ArchitecturePackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/BlockMoney/_packaging/blockmoney-packages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -32,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -49,13 +58,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.4, )",
+              "version": "[8.0.6, )",
               "autoReferenced": true
             }
           },
@@ -73,7 +82,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.4, 8.0.4]"
+              "version": "[8.0.6, 8.0.6]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -90,30 +99,34 @@
         }
       }
     },
-    "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj": {
+    "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp\\BlazorSignalRApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj",
+        "projectUniqueName": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp\\BlazorSignalRApp.csproj",
         "projectName": "BlazorSignalRApp",
-        "projectPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/BlazorSignalRApp.csproj",
-        "packagesPath": "/Users/sam/.nuget/packages/",
-        "outputPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp/obj/",
+        "projectPath": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp\\BlazorSignalRApp.csproj",
+        "packagesPath": "C:\\Users\\A2696263\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sam/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\A2696263\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/0470b46e-1f42-4fdf-b4aa-9b392089b0bc/_packaging/ArchitecturePackages/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/hrblock/BlockMoney/_packaging/blockmoney-packages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj": {
-                "projectPath": "/Volumes/Sam's Drive/Programming/TranslationApp/BlazorSignalRApp/BlazorSignalRApp.Client/BlazorSignalRApp.Client.csproj"
+              "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj": {
+                "projectPath": "C:\\Users\\A2696263\\OneDrive - H&R BLOCK LTD\\Desktop\\Azure_SignalR_Translator\\Azure_SignalR-Translator\\BlazorSignalRApp.Client\\BlazorSignalRApp.Client.csproj"
               }
             }
           }
@@ -122,6 +135,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -152,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
