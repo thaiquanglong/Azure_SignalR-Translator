@@ -37,3 +37,6 @@ terraform.rc
 
 # Key and endpoint file 
 keys.json
+
+# ignore all audio file
+*wav*

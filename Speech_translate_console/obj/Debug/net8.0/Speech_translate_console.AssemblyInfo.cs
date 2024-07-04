@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Speech_translate_console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02183f4739d456efd26bea94ef116fcc457ada2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90c4ba18fd830c6835832e8a6407d1abaf26f927")]
 [assembly: System.Reflection.AssemblyProductAttribute("Speech_translate_console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Speech_translate_console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
