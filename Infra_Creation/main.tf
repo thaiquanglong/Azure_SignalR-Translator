@@ -22,7 +22,7 @@ resource "azurerm_signalr_service" "signalr" {
   name                = join("-", ["signalr",random_pet.rg_name.id])
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
-
+  service_mode = "Serverless"
   sku {
     name     = "Free_F1"
     capacity = 1
