@@ -22,7 +22,7 @@ export default {
 
 <style>
 html {
-  background-color: #303030;
+  background-color: black;
 }
 
 body {
@@ -36,7 +36,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #f3f3f3;
-  background-color: #303030;
   width: 100%;
 }
 #nav {

@@ -23,6 +23,12 @@ export default new Router({
       name: 'join',
       component: () => import('./views/CaptionJoin.vue'),
       props: true
+    },
+    {
+      path: '/joinSlides',
+      name: 'joinSlides',
+      component: () => import('./views/CaptionJoinSlides.vue'),
+      props: true
     }
   ]
 })
