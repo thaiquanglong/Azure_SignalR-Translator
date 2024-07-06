@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     toLanguageCodes() {
-      return this.toLanguages.map(l => l.substring(0, 2)).sort()
+      return this.toLanguages.map(l => l.split("-")[0]).sort()
     }
   },
   methods: {

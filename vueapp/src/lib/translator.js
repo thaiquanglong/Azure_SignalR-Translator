@@ -21,7 +21,8 @@ class Translator {
 
     speechConfig.speechRecognitionLanguage = options.fromLanguage
     for (const lang of options.toLanguages) {
-      speechConfig.addTargetLanguage(lang)
+      const langCode = getLanguageCode(lang)
+      speechConfig.addTargetLanguage(langCode)
     }
 
     this._recognizer = new TranslationRecognizer(speechConfig, audioConfig)
@@ -54,7 +55,7 @@ class Translator {
     }
 
     function getLanguageCode(lang) {
-      return lang.substring(0, 2)
+      return lang.split("-")[0]
     }
   }
   
