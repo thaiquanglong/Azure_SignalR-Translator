@@ -9,11 +9,11 @@
             {{ lang }}
           </option>
         </select>
-        <button @click="start">start</button>
+        <button @click="start">Start</button>
       </div>
     </div>
     <div v-else>
-      <button @click="stop">stop</button>
+      <button @click="stop">Stop</button>
       <div id="currentSentence" class="caption">
         {{ currentSentence }}
       </div>
@@ -79,4 +79,8 @@ export default {
 input[type=password] {
   width: 600px;
 }
+
+/* #currentSentence {
+  color: rgb(220, 220, 220)
+} */
 </style>

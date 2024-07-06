@@ -99,11 +99,11 @@ export default {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 6px;
-  background-color: white;
 }
 
 #captions-text {
   padding-top: 80px;
-  padding-bottom: 60px
+  padding-bottom: 60px;
+  /*color: rgb(220, 220, 220);*/
 }
 </style>
