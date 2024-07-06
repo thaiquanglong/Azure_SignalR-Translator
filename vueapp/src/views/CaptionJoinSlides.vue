@@ -112,6 +112,8 @@ export default {
 
 #captions-text {
   background-color: black;
+  height: 25vh;
+  overflow-y: auto;
   /* padding-top: 80px;
   padding-bottom: 60px; */
   /*color: rgb(220, 220, 220);*/
