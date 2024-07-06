@@ -1,7 +1,7 @@
 <template>
   <div class="caption-join">
-    <div id="language-select">
-      <select v-model="toLanguageCode" v-if="langIsntDefined">
+    <div id="language-select" v-if="langIsntDefined">
+      <select v-model="toLanguageCode" >
         <option v-for="lang in toLanguageCodes" :value="lang" :key="lang">
           {{ lang }}
         </option>
@@ -45,9 +45,11 @@ export default {
         userId: this.clientId
       })
     },
-    langIsntDefined: () => {
+    langIsntDefined() {
+      console.log(router.currentRoute.query)
       if(router.currentRoute.query.langCode) {
-        this.toLanguageCode(router.currentRoute.query.langCode);
+        console.log(router.currentRoute.query.langCode)
+        this.toLanguageCode = router.currentRoute.query.langCode;
         return false;
       } else {
         return true;
