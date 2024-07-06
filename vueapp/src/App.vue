@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style>
+html {
+  background-color: #303030;
+}
+
 body {
   margin: 0px;
   padding: 0px;
@@ -31,7 +35,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #f3f3f3;
+  background-color: #303030;
   width: 100%;
 }
 #nav {
@@ -40,12 +45,10 @@ body {
   width: 100%;
   min-height: 100px;
   z-index: 1000;
-  background-color: #fff;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
 }
 
 #nav h1 a {
@@ -62,6 +65,13 @@ button {
   border-radius: 8px;
   width: 200px;
   font-size: 16px;
+  background-color: #202020;
+  color:#f3f3f3;
+}
+
+select {
+  background-color: #202020;
+  color:#f3f3f3;
 }
 
 input[type=text], input[type=password], select {
