@@ -1,7 +1,7 @@
 <template>
   <div class="caption-join">
     <div id="language-select">
-      <select v-model="toLanguageCode">
+      <select v-model="toLanguageCode" v-if="langIsntDefined">
         <option v-for="lang in toLanguageCodes" :value="lang" :key="lang">
           {{ lang }}
         </option>
@@ -19,6 +19,7 @@ import axios from 'axios'
 import constants from '../lib/constants'
 import * as signalR from '@aspnet/signalr'
 import languageListMixin from '../lib/language-list-mixin'
+import router from '../router'
 
 export default {
   mixins: [ languageListMixin ],
@@ -43,6 +44,14 @@ export default {
         languageCode,
         userId: this.clientId
       })
+    },
+    langIsntDefined: () => {
+      if(router.currentRoute.query.langCode) {
+        this.toLanguageCode(router.currentRoute.query.langCode);
+        return false;
+      } else {
+        return true;
+      }
     }
   },
   watch: {
