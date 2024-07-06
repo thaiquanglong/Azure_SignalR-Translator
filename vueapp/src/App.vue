@@ -77,7 +77,7 @@ input[type=text], input[type=password], select {
 .caption {
   margin: 48px auto;
   max-width: 1920px;
-  font-size: 80px;
+  font-size: 60px;
   text-align: left;
   padding: 24px;
 }
