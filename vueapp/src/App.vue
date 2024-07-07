@@ -56,7 +56,7 @@ body {
 }
 
 #main {
-  margin-top: 20px;
+  margin: 0px;
 }
 
 button {

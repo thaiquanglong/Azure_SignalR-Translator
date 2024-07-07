@@ -108,6 +108,7 @@ export default {
   position: fixed;
   top: 0;
   width: 100%;
+  margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 6px;
 }

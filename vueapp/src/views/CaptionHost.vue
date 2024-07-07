@@ -79,7 +79,9 @@ export default {
 input[type=password] {
   width: 600px;
 }
-
+.caption-host {
+  margin-top: 20px;
+}
 /* #currentSentence {
   color: rgb(220, 220, 220)
 } */
